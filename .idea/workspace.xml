@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acbf2282-6d91-4f26-8e58-124a3127c37d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productsApp/polls/templates/polls/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productsApp/polls/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productsApp/polls/templates/polls/createProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productsApp/polls/templates/polls/listProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productsApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/productsApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productsApp/productsApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApp/productsApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productsApp/productsApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApp/productsApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsApp/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productsApp/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsApp/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApp/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsApp/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApp/polls/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productsApp/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -29,16 +30,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/productsApp/polls/templates/polls/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productsApp/polls/templates/polls/createProduct.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productsApp/polls/templates/polls/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/productsApp/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -110,9 +124,11 @@
         <option value="$PROJECT_DIR$/productsApp/productsApp/settings.py" />
         <option value="$PROJECT_DIR$/productsApp/polls/models.py" />
         <option value="$PROJECT_DIR$/productsApp/polls/admin.py" />
-        <option value="$PROJECT_DIR$/productsApp/polls/views.py" />
-        <option value="$PROJECT_DIR$/productsApp/polls/urls.py" />
         <option value="$PROJECT_DIR$/productsApp/productsApp/urls.py" />
+        <option value="$PROJECT_DIR$/productsApp/polls/templates/polls/createProduct.html" />
+        <option value="$PROJECT_DIR$/productsApp/polls/views.py" />
+        <option value="$PROJECT_DIR$/productsApp/polls/templates/polls/index.html" />
+        <option value="$PROJECT_DIR$/productsApp/polls/urls.py" />
       </list>
     </option>
   </component>
@@ -151,6 +167,14 @@
               <item name="productsApp" type="462c0819:PsiDirectoryNode" />
               <item name="polls" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="productsApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="productsApp" type="462c0819:PsiDirectoryNode" />
+              <item name="productsApp" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="productsApp" type="b2602c69:ProjectViewProjectNode" />
@@ -255,28 +279,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productsApp/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/productsApp/polls/templates/polls/listProduct.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/productsApp/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/productsApp/polls/templates/polls/createProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/productsApp/polls/templates/polls/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productsApp/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
